@@ -9,10 +9,10 @@ This flow requires sqlite3 to be installed on your system.  At a terminal comman
 sudo apt-get install sqlite3
 ```
 
-At the terminal command prompt User (pi) type the following to create a database named qsos and drop you into the database server.
+At the terminal command prompt User (pi) type the following to create a database named *13colonies* and drop you into the database server.
 
 ```
-sqlite3 qsos
+sqlite3 13colonies
 ```
 
 Now we need to create some tables within the qsos database.
