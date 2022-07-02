@@ -39,6 +39,19 @@ Type .exit to exit out of the database and return to the Pi terminal command pro
 ```
 .exit 
 ```
-
 Your Node Red local qsos database is now created and ready to go.
+
+## Loading Node Dependencies
+
+As of March 2022 the following node dependencies are needed.  Be sure to read the **Configuration** section below.
+
+```
+
+node-red-node-sqlite
+node-red-node-irc
+```
+
+After installing these node dependencies (which you should receive a pop up message asking you to resolve node dependencies after you clone the project), you'll need to restart Node Red for the nodes to work properly.  From a command prompt, issue the following command.  Note : some dashboard nodes will only populate in your node palette after a restart. 
+
+```sudo systemctl restart nodered.service```
 
