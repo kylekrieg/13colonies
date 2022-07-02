@@ -55,3 +55,10 @@ After installing these node dependencies (which you should receive a pop up mess
 
 ```sudo systemctl restart nodered.service```
 
+## SQLITE Node Configuration
+
+If you follow the instructions for creating the *13colonies* database in the pi home directory, you shouldn't need to re-configure any SQLite nodes.  If you are installing this flow on a non-Raspberry Pi environment, you'll need to make sure all SQLite nodes point to the location of the database on the Node Red computer.  To change the default location;
+
+1) Double click each SQLite node (there are quite a few) to bring up the properties of the node.
+2) Click on the pencil icon to the right of the database name.
+3) Enter in the full path on your computer to where the *13colonies* database is located.  Windows users, spaces and long directories are not allowed.  Do a Google search on how to shorten file paths and how to deal with spaces in your file path. 
