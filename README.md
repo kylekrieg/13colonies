@@ -46,7 +46,6 @@ Your Node Red local qsos database is now created and ready to go.
 As of March 2022 the following node dependencies are needed.  Be sure to read the **Configuration** section below.
 
 ```
-
 node-red-node-sqlite
 node-red-node-irc
 ```
